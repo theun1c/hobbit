@@ -1,0 +1,29 @@
+{
+  "name": "hobbit",
+  "version": "1.0.0",
+  "description": "> Habits tracker to prepare my nodejs skills before i started nestjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theun1c/hobbit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/theun1c/hobbit/issues"
+  },
+  "homepage": "https://github.com/theun1c/hobbit#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
