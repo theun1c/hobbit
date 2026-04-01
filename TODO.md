@@ -15,13 +15,13 @@
 
 ## Этап 1 — Базовый HTTP-сервер
 
-### Задачи
+### Задачи ! DONE
 
-* создать проект (npm init)
-* установить TypeScript
-* создать `tsconfig.json`
-* написать сервер через `http.createServer`
-* запустить на `localhost:3000`
+- [x] создать проект (npm init)
+- [x] установить TypeScript
+- [x] создать `tsconfig.json`
+- [x] написать сервер через `http.createServer`
+- [x] запустить на `localhost:3000`
 
 ### Результат
 
