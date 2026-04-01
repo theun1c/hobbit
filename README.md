@@ -6,7 +6,6 @@ Learn how to search for information about a new technology without knowledge (I 
 
 ## Base commands 
 
-Стартанул проект: 
 ```
 npm init -y // создает package.json (yes all)
 
