@@ -25,9 +25,6 @@ server.listen(PORT, () => {
 
 function HealthHandler(req:http.IncomingMessage , res: http.ServerResponse<http.IncomingMessage>) {
     
-    res.writeHead( 200, {
-        'Content-type': 'text/html; charset=UTF-8' 
-    })
 
     if (req.method === "GET"){
         return res.end('HEALTH PAGE --- GET')
@@ -36,14 +33,12 @@ function HealthHandler(req:http.IncomingMessage , res: http.ServerResponse<http.
     if (req.method === "POST"){
         return res.end('HEALTH PAGE --- POST')
     }
+
+    res.end("WTF")
 }
 
 function HabitHandler(req:http.IncomingMessage , res: http.ServerResponse<http.IncomingMessage>) {
     
-    res.writeHead( 200, {
-        'Content-type': 'text/html; charset=UTF-8' 
-    })
-
     if (req.method === "GET"){
         return res.end('HABIT PAGE --- GET')
     }
@@ -51,4 +46,6 @@ function HabitHandler(req:http.IncomingMessage , res: http.ServerResponse<http.I
     if (req.method === "POST"){
         return res.end('HABIT PAGE --- POST')
     }
+
+    res.end("WTF")
 }
